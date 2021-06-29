@@ -7,7 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+<body><!---add dark mode-->>
+    <center>
+        <label class="switch">
+            <input type="checkbox"  onclick="myFunction()">
+            <span class="slider round"></span>
+        </label>
+      </center>
+      <hr>
+      <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+        <!---end of add dark mode-->>
     <div class="wrapper">
         <div class="left">
             <div class="title">
